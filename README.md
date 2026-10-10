@@ -1,5 +1,8 @@
 # MPUmid
 
+<img width="640" height="400" alt="mpumid_003 raw1" src="https://github.com/user-attachments/assets/b0af8ae7-8f7b-45d8-a5c2-c6a73f585b78" />
+
+
 MIDI player for DOS. It sends the music to a MIDI module (Roland SC-55 or any GM/GS module) using an MPU-401 interface in UART mode.
 
 It runs on a 286 or better. The screen shows a Sound Canvas front panel in text mode, with a level meter for the 16 MIDI channels, the song length and the time played.
