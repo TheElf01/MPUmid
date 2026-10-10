@@ -62,22 +62,22 @@ DOS only has 8.3 names, so MPUmid reads long names from two text files in each d
 
 Format, one line for each name:
 
-    SONIC3=Sonic 3 and Knuckles
-    TRK01.MID=Angel Island Zone
+    MOZA=Music from Mozart
+    REKDM.MID=Requiem in D minor
 
 UTF-8 and Latin-1 names are converted to the DOS character set.
 
-For loose MIDI files (in the root or in a directory that also has subdirectories) a name like "Game - Song" is split: the game goes to the top of the panel and the song to the bottom.
+For loose MIDI files (in the root or in a directory that also has subdirectories) a name like "ALBUM - Song" is split: the Album goes to the top of the panel and the song to the bottom.
 
 
 ## Build
 
-OpenWatcom 1.9, medium memory model. Run BUILD.BAT.
+For modern system use OpenWatcom 1.9. Run BUILD.BAT.
 
 ## Notes
 
 - The interface texts are in Spanish.
-- The MIDI file is read from disk while it plays, so big files start at once and no XMS/EMS is needed.
+- The MIDI file is read from disk while it plays,  no XMS/EMS is needed.
 - Up to 1000 files per directory.
 
 TheElf
